@@ -1,0 +1,61 @@
+body {
+    min-height: 2000px;
+}
+.slider h3,
+.slider h5 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.logo {
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+}
+h3 {
+    color: black;
+}
+span {
+    color: red;
+}
+.brand-logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+} 
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.4 !important;
+}
+.about h3 {
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+}
+.courses h3 {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.services h3 {
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+}
+.videos h3 {
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+}
+.contact h3 {
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+}
+.courses img {
+    max-width: 150px;
+    opacity: 0.9;
+    padding-top: 50px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,1));
+}
+.container video {
+    max-width: 300px;
+}
+section, footer {
+    padding: 20px 0;
+}
+.logo {
+    max-width: 200px;
+}
+.footers {
+    font-family: monospace;
+}
+.foot {
+    color: black !important;
+}
