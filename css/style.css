@@ -5,6 +5,9 @@ body {
 .slider h5 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+.logos {
+    color: red;
+}
 .logo {
     padding-top: 1px;
     padding-bottom: 2px;
@@ -58,4 +61,7 @@ section, footer {
 }
 .foot {
     color: black !important;
+}
+.slider h3 {
+    font-size: 35px;
 }
