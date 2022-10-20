@@ -68,3 +68,7 @@ section, footer {
 link {
     display: none;
 }
+.whatsapp {
+    color: rgb(255, 255, 255);
+    background-color: green;
+}

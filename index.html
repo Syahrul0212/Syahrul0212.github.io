@@ -13,12 +13,13 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TEST (The English SpecilisT)</title>
-    <link rel="icon" href="img/slider/WhatsApp Image 2022-10-13 at 11.39.07.jpeg" type="">
+    <title>TEST (The English SpecialisT)</title>
+    <link rel="icon" href="img/slider/WhatsApp Image 2022-10-13 at 11.39.07.jpeg" type="" />
+
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
   </head>
 
   <body id="home" class="scrollspy">
-
     <!-- Navbar -->
     <div class="navbar-fixed">
       <nav class="brown lighten-1">
@@ -40,16 +41,14 @@
       </nav>
     </div>
 
-
     <!-- sidenav-->
     <ul class="sidenav" id="mobile-nav">
-      <li><a href="">About Us</a></li>
-      <li><a href="">Courses</a></li>
-      <li><a href="">Services</a></li>
-      <li><a href="">Videos</a></li>
-      <li><a href="">Contact Us</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </ul>
-
 
     <!-- slider-->
     <div class="slider">
@@ -88,7 +87,6 @@
       </svg>
     </div>
 
-
     <!-- About Us -->
     <section id="about" class="about scrollspy">
       <div class="container">
@@ -109,35 +107,33 @@
       </div>
     </section>
 
-
     <!-- Courses -->
-    <div id="courses" class="parallax-container scrollspy">
+    <div id="courses" class="parallax-container scrollspy course">
       <div class="parallax"><img src="img/slider/4.png" /></div>
       <div class="container courses">
         <h3 class="center light white-text text-darken-3">Courses</h3>
         <div class="row">
-          <div class="col m2 s2 center">
+          <div class="col-lg-2 m2 s2 center">
             <img src="img/slider/4_20221013_123831_0003[519].png" alt="" />
           </div>
-          <div class="col m2 s2 center">
+          <div class="col-lg-2 m2 s2 center">
             <img src="img/slider/5_20221013_123831_0004[525].png" alt="" />
           </div>
-          <div class="col m2 s2 center">
+          <div class="col-lg-2 m2 s2 center">
             <img src="img/slider/6_20221013_123831_0005[526].png" alt="" />
           </div>
-          <div class="col m2 s2 center">
+          <div class="col-lg-2 m2 s2 center">
             <img src="img/slider/7_20221013_123831_0006[520].png" alt="" />
           </div>
-          <div class="col m2 s2 center">
+          <div class="col-lg-2 m2 s2 center">
             <img src="img/slider/8_20221013_123831_0007[517].png" alt="" />
           </div>
-          <div class="col m2 s2 center">
+          <div class="col-lg-2 m2 s2 center">
             <img src="img/slider/9_20221013_123831_0008[522].png" alt="" />
           </div>
         </div>
       </div>
     </div>
-
 
     <!-- Services -->
     <section id="services" class="services grey lighten-3 scrollspy">
@@ -162,7 +158,6 @@
       </div>
     </section>
 
-
     <!-- Videos -->
     <section id="videos" class="videos scrollspy">
       <div class="container">
@@ -186,7 +181,6 @@
       </div>
     </section>
 
-
     <!-- Contact Us -->
     <section id="contact" class="contact scrollspy">
       <div class="container">
@@ -200,10 +194,10 @@
             </div>
             <ul class="collection with-header">
               <li class="collection-header center"><h4>Our Office</h4></li>
-              <li class="collection-item">Email :<a href="https://mail.google.com/mail/u/0/#inbox?compose=XBcJlHhVmfrpqsSddDLnRWDxqRHPPHQBMmSwnCMMNdNSMmLNMkpBsLcGGkvBqdnrblGkhLDFTWRnMWNQ">t.englishspecialist@gmail.com</a></li>
-              <li class="collection-item">No HP : <a href="https://wa.me/6285799990980/?text=Hello">+ 62 857-9999-0980</a></li>
-              <li class="collection-item">Instagram :<a href="https://www.instagram.com/test.theenglishspecialist/?hl=id">t.englishspecialist@gmail.com</a></li>
-              <li class="collection-item">Business Address : Jl.Senayan No.32, Kebayoran Baru, Jakarta Selatan</li>
+              <li class="collection-item"> <i class="fa-solid fa-envelope"></i> : <a href="https://mail.google.com/mail/u/0/#inbox?compose=XBcJlHhVmfrpqsSddDLnRWDxqRHPPHQBMmSwnCMMNdNSMmLNMkpBsLcGGkvBqdnrblGkhLDFTWRnMWNQ">t.englishspecialist@gmail.com</a></li>
+              
+              <li class="collection-item"><i class="fa-brands fa-whatsapp whatsapp"></i> : <a href="https://wa.me/6285799990980/?text=Hello">+ 62 857-9999-0980</a></li>
+              <li class="collection-item"><i class="fa-brands fa-instagram"></i> : <a href="https://www.instagram.com/test.theenglishspecialist/?hl=id">t.englishspecialist@gmail.com</a></li>
             </ul>
           </div>
           <div class="col m7 s12">
@@ -226,7 +220,7 @@
                 </div>
                 <div class="input-field">
                   <textarea id="message" class="materialize-textarea" name="massage"></textarea>
-                  <label for="massage">Massage</label>
+                  <label for="massage">Message</label>
                 </div>
                 <button type="submit" class="btn brown lighten-1 btn-send">Send</button>
                 <span class="spinner-border spinner-border-sm btn-loading d-none" role="status" aria-hidden="true"></span>
@@ -238,12 +232,10 @@
       </div>
     </section>
 
-
     <!-- Footer -->
     <footer class="brown lighten-1 white-text center">
-      <p class="flow-text footers">TEST (The English SpecilisT). <span class="foot"> Copyright 2022.</span></p>
+      <p class="flow-text footers">TEST (The English SpecialisT). <span class="foot"> Copyright 2022.</span></p>
     </footer>
-    
 
     <!--<footer id="footer">
       <div class="container">
@@ -275,7 +267,6 @@
         </div>
       </div>
     </footer> -->
-
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>

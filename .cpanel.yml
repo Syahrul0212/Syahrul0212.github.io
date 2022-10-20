@@ -3,7 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/theengl1/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp/css style.css $DEPLOYPATH
     - /bin/cp materialize.css $DEPLOYPATH
     - /bin/cp materialize.min.css $DEPLOYPATH
     - /bin/cp materialize.js $DEPLOYPATH
