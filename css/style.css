@@ -65,3 +65,6 @@ section, footer {
 .slider h3 {
     font-size: 35px;
 }
+link {
+    display: none;
+}
